@@ -11,7 +11,7 @@ class MovieDetailContainer extends React.Component {
     return (
 
       <div className="container">
-        <h1>TEST TEST TEST</h1>
+        <h1>Viewing movie {this.props.match.params.id}</h1>
       </div>
 
     )

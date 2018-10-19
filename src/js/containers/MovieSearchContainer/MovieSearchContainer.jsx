@@ -32,7 +32,7 @@ export default class MovieSearchContainer extends React.Component {
                   // onClick={this.handleSearchBtn}
                   type='button'
                   className='btn btn-success'>
-                  <strong>Search</strong>
+                  <strong>Go</strong>
                 </button>
               </span>
             </div>
