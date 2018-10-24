@@ -11,7 +11,7 @@ app.get('/api/:title', (req,res) => {
     axios
     .get(`http://www.omdbapi.com/?s=${movie}&apikey=8730e0e`)    
     .then(r => res.send(r.data))
-    .catch(err => res.status(500).send('bad response'));
+    .catch(err => res.status(200).send('no response'));
 })
 
 app.get('/api/movie/:id', (req,res) => {
@@ -19,7 +19,7 @@ app.get('/api/movie/:id', (req,res) => {
     axios
         .get(`http://www.omdbapi.com/?i=${req.params.id}&apikey=8730e0e`)
         .then(r => res.send(r.data))
-        .catch(err => res.status(500).send('bad response'));;
+        .catch(err => res.status(200).send('no response'));;
 });
 
 module.exports = app;
