@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export function getMovie(movieName) { 
-    console.log('actions movie name',{movieName})
+   
   return {
     type: 'GET_MOVIE',
     payload:     
@@ -16,7 +16,7 @@ export function getMovie(movieName) {
 }
 
 export function getMovieById(movieId){
-    console.log('actions movie id', {movieId})
+    
     return {
         type: 'GET_MOVIE_BY_ID',
         payload:     
