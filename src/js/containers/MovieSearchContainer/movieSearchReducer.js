@@ -13,7 +13,7 @@ const defaultState = {
                 error: ''
             }
         case 'GET_MOVIE_FULFILLED' : {
-            if(typeof payload === 'undefined') {
+            if(typeof payload === 'null') {
                 return {
                     ...state,
                     error: 'NO MOVIE SON!'
