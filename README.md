@@ -4,4 +4,4 @@ This is movie app used to search the OMDB API to find any movie. This app is bui
 <h2>Preview of project.</h2>
 <img src='http://i65.tinypic.com/289am47.png'> 
 <hr>
-<a href=''>Try it out!</a>
+<a href='https://as-movie-finder.herokuapp.com/#/'>Try it out!</a>
